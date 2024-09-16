@@ -13,7 +13,7 @@ const Contact = () => {
             <div className="flex flex-col gap-4">
               <input
                 type="text"
-                className="bg-white border-[1px] w-[260px] pt-1 h-[47px] border-black outline-none pl-2"
+                className="bg-white border-[1px] pt-1 h-[47px] border-black outline-none pl-2"
                 placeholder="Name..."
                 name=""
                 id=""
