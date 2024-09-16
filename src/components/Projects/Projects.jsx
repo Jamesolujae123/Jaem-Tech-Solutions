@@ -42,10 +42,10 @@ const Projects = () => {
             </div>
             <div className="flex flex-col gap-5">
               <div className="relative">
-                <span className="text-xl font-bold z-50">
+                <span className="text-xl font-bold absolute">
                   Food Recipes Website
                 </span>
-                <div className="border-2 border-green-500 hover:border-blue-500 duration-500 w-[210px] absolute bottom-[2px] "></div>
+                <div className="border-2 border-green-500 hover:border-blue-500 duration-500 w-[210px] mt-5  bottom-[2px]"></div>
               </div>
               <span className="font-roboto font-medium">
                 This is a web-app that allows users to share recipes and post
@@ -62,8 +62,10 @@ const Projects = () => {
           <div className="flex flex-col gap-7 md:flex-row md:gap-10">
             <div className="flex flex-col gap-5">
               <div className="relative">
-                <span className="text-xl font-bold z-50">LandMark Foodhub</span>
-                <div className="border-2 border-green-500 hover:border-blue-500 duration-500 w-[210px] absolute bottom-[2px] "></div>
+                <span className="text-xl font-bold absolute">
+                  LandMark Foodhub
+                </span>
+                <div className="border-2 border-green-500 hover:border-blue-500 duration-500 w-[183px] bottom-[2px] mt-5"></div>
               </div>
               <span className="font-roboto font-medium">
                 A website that makes student life easier, enabling seamless food
@@ -95,10 +97,10 @@ const Projects = () => {
             </div>
             <div className="flex flex-col gap-5">
               <div className="relative">
-                <span className="text-xl font-bold z-50">
+                <span className="text-xl font-bold absolute">
                   Student Analytics Website
                 </span>
-                <div className="border-2 border-green-500 hover:border-blue-500 duration-500 w-[246px] absolute bottom-[2px] "></div>
+                <div className="border-2 border-green-500 hover:border-blue-500 duration-500 mt-5 w-[245px] bottom-[2px]"></div>
               </div>
               <span className="font-roboto font-medium">
                 We contributed in the creation of this website, which provides
