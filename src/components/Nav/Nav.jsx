@@ -82,7 +82,7 @@ const Nav = () => {
         <FaXTwitter className="text-gray-500 hover:text-green-500 duration-500" />
         <FaFacebook className="text-gray-500 hover:text-green-500 duration-500" />
       </div>
-      <div className="flex flex-col mt-3  w-[90%] gap-4 md:hidden">
+      <div className="flex flex-col mt-3  w-[100%] gap-4 md:hidden">
         {mobilenav ? (
           <div className="flex items-center w-[100%] rounded-lg justify-center bg-blue-500 py-10 flex-col gap-3">
             <div className="flex flex-col gap-2 w-[100%] text-white md:gap-11 text-xl font-semibold">
