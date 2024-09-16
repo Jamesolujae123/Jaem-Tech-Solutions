@@ -22,7 +22,7 @@ const Projects = () => {
           src={blob}
           alt=""
         /> */}
-        <div className="flex items-center px-16 justify-center flex-col gap-6">
+        <div className="flex items-center px-6 md:px-16 justify-center flex-col gap-6">
           <span className="text-black font-bold text-4xl">
             Projects we enjoyed working on
           </span>
@@ -31,7 +31,7 @@ const Projects = () => {
             turned ideas into impactful digital solutions.
           </span>
         </div>
-        <div className="flex flex-col px-16 gap-7 py-8">
+        <div className="flex flex-col px-6 md:px-16 gap-7 py-8">
           <div className="flex flex-col gap-7 md:flex-row md:gap-10">
             <div className="overflow-hidden">
               <img
