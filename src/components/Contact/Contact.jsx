@@ -10,7 +10,7 @@ const Contact = () => {
       <div className="flex flex-col md:flex-row gap-5">
         <div>
           <form action="" className="flex flex-col md:flex-row gap-5">
-            <div className="flex flex-col gap-4">
+            <div className="flex flex-col gap-[20px]">
               <input
                 type="text"
                 className="bg-white border-[1px] pt-1 h-[47px] border-black outline-none pl-2"
@@ -20,7 +20,7 @@ const Contact = () => {
               />
               <input
                 type="email"
-                className="bg-white border-[1px] h-[47px] pt-1 border-black outline-none pl-2"
+                className="bg-white border-[1px] h-[47px] mt-3 pt-1 border-black outline-none pl-2"
                 placeholder="Email..."
                 name=""
                 id=""
