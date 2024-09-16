@@ -134,6 +134,7 @@ const Nav = () => {
                 >
                   Contact
                 </Link>
+                <div className="border-b-[2px] border-b-white self-center w-[78%]"></div>
               </div>
             </div>
             <div className="flex self-center flex-row gap-7 text-2xl">
