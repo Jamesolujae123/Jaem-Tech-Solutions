@@ -82,55 +82,55 @@ const Nav = () => {
         <FaXTwitter className="text-gray-500 hover:text-green-500 duration-500" />
         <FaFacebook className="text-gray-500 hover:text-green-500 duration-500" />
       </div>
-      <div className="flex flex-col mt-3  w-[100%] gap-4 md:hidden">
+      <div className="flex flex-col mt-3  w-[90%] gap-4 md:hidden">
         {mobilenav ? (
           <div className="flex items-center w-[100%] rounded-lg justify-center bg-blue-500 py-10 flex-col gap-3">
-            <div className="flex flex-col  w-[100%] text-white md:gap-11 text-xl font-semibold">
+            <div className="flex flex-col gap-2 w-[100%] text-white md:gap-11 text-xl font-semibold">
               <div className="w-[100%] flex flex-col">
                 <Link
                   onClick={closeNav}
                   to={"/"}
-                  className="hover:bg-green-300 text-center bg-green-500 w-[80%] self-center duration-500 "
+                  className="hover:bg-green-300 text-center py-2 rounded-lg bg-green-500 w-[80%] self-center duration-500 "
                 >
                   Home
                 </Link>
-                <div className="border-b-[2px] border-b-white self-center w-[80%]"></div>
+                <div className="border-b-[2px] border-b-white self-center w-[78%]"></div>
               </div>
               <div className="w-[100%] flex flex-col">
                 <Link
                   onClick={closeNav}
                   to={"/Services"}
-                  className=" text-center bg-green-500 w-[80%] self-center duration-500"
+                  className=" text-center bg-green-500 py-2 rounded-lg w-[80%] self-center duration-500"
                 >
                   Services
                 </Link>
-                <div className="border-b-[2px] border-b-white self-center w-[80%]"></div>
+                <div className="border-b-[2px] border-b-white self-center w-[78%]"></div>
               </div>
               <div className="w-[100%] flex flex-col">
                 <Link
                   onClick={closeNav}
                   to={"/Testimonials"}
-                  className=" text-center bg-green-500 w-[80%] self-center duration-500"
+                  className=" text-center bg-green-500 py-2 rounded-lg w-[80%] self-center duration-500"
                 >
                   Testimonials
                 </Link>
-                <div className="border-b-[2px]  border-b-white self-center w-[80%]"></div>
+                <div className="border-b-[2px]  border-b-white self-center w-[78%]"></div>
               </div>
               <div className="w-[100%] flex flex-col">
                 <Link
                   onClick={closeNav}
                   to={"/Experience"}
-                  className=" text-center bg-green-500 w-[80%] self-center duration-500"
+                  className=" text-center bg-green-500 py-2 rounded-lg w-[80%] self-center duration-500"
                 >
                   Experience
                 </Link>
-                <div className="border-b-[2px] border-b-white self-center w-[80%]"></div>
+                <div className="border-b-[2px] border-b-white self-center w-[78%]"></div>
               </div>
               <div className="w-[100%] flex flex-col">
                 <Link
                   onClick={closeNav}
                   to={"/Contact"}
-                  className=" text-center self-center bg-green-500 w-[80%] duration-500"
+                  className=" text-center self-center py-2 rounded-lg bg-green-500 w-[80%] duration-500"
                 >
                   Contact
                 </Link>
